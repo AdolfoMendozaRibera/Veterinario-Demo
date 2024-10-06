@@ -1,0 +1,86 @@
+#login {
+    display: flex;
+    flex-direction: column;
+    color: rgb(36, 25, 62);
+    background: white;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: rgb(36, 25, 62);
+    background: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.toggle-buttons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+
+.toggle-buttons button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #6a6a6a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.toggle-buttons button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.toggle-buttons button:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.toggle-buttons button:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

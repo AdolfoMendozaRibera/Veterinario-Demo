@@ -1,0 +1,48 @@
+/*
+Usar "rem"
+No "px"
+*/
+
+.main-screen {
+    display: flex;
+    flex-direction: column;
+    width: 1270px;
+    height: 700px;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-buttons button {
+    background-color: #6a6a6a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .content {
+    flex-grow: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    color: rgb(51, 95, 153);
+  }
+
+  .content p{
+    font-size: 300%;
+  }
+  

@@ -1,0 +1,38 @@
+.personal-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    margin: 20px;
+  }
+  
+  .personal-list-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: black;
+    padding: 20px;
+  }
+  
+  .personal-list-title {
+    color: var(--primary-color);
+    font-size: 24px;
+    margin: 20px;
+  }
+  
+  .add-personal-btn {
+    background-color: #007bff;
+  }
+  
+  .add-personal-btn:hover {
+    background-color: #218838;
+  }
+
+
+  .container{
+    background: white;
+    width: 1200px;
+    height: 1200px;
+    
+  }

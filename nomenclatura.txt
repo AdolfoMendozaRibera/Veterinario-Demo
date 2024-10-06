@@ -1,0 +1,85 @@
+Variables y funciones:
+
+Usar camelCase: miVariable, calcularTotal()
+
+
+Clases:
+
+Usar PascalCase: UsuarioAutenticado
+
+
+Interfaces:
+
+Usar PascalCase, a menudo con prefijo 'I': IUsuario o simplemente Usuario
+
+
+Tipos:
+
+Usar PascalCase: TipoRespuesta
+
+
+Constantes:
+
+Usar UPPER_SNAKE_CASE para valores que nunca cambian: MAX_INTENTOS
+Usar camelCase para const que son objetos/arrays: configPorDefecto
+
+
+Métodos de clase:
+
+Usar camelCase: obtenerDatos()
+
+
+Propiedades/atributos de clase:
+
+Usar camelCase: nombreUsuario
+
+
+Archivos TypeScript (.ts):
+
+Usar kebab-case: usuario-servicio.ts
+
+
+Archivos de componentes React (.tsx):
+
+Usar PascalCase: UsuarioForm.tsx
+
+
+Nombres de componentes:
+
+Usar PascalCase: <UsuarioForm />
+
+
+Eventos:
+
+Usar on + PascalCase: onSubmit, onClick
+
+
+Enums:
+
+Usar PascalCase para el nombre: TipoUsuario
+Usar PascalCase para los valores: TipoUsuario.Administrador
+
+
+
+¿Te gustaría que profundice en alguno de estos puntos o que aborde algún otro aspecto específico de la nomenclatura en TypeScript?
+
+
+HTML:
+Clases (atributo class):
+
+Usar kebab-case: palabras en minúsculas separadas por guiones
+Ejemplos: class="user-profile", class="nav-menu"
+Para componentes BEM (Block Element Modifier), usar la siguiente estructura:
+
+Bloque: class="block"
+Elemento: class="block__element"
+Modificador: class="block--modifier" o class="block__element--modifier"
+
+
+
+
+IDs (atributo id):
+
+Usar camelCase o kebab-case (ser consistente con el elegido)
+Ejemplos: id="userProfile" o id="user-profile"
+Nota: Los IDs deben ser únicos en toda la página
